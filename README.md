@@ -95,19 +95,7 @@ search = SearchEngine(embedder, store)
 results = search.search("your query here")
 ```
 
-## 🔧 Configuration
 
-Key environment variables in `.env`:
-
-| Variable | Description | Default |
-|----------|-------------|---------|
-| `AZURE_OPENAI_ENDPOINT` | Azure OpenAI endpoint URL | - |
-| `AZURE_OPENAI_API_KEY` | Azure OpenAI API key | - |
-| `AZURE_OPENAI_DEPLOYMENT_NAME` | Azure OpenAI deployment name | - |
-| `AZURE_OPENAI_API_VERSION` | Azure OpenAI API version | `2024-02-15-preview` |
-| `EMBEDDING_MODEL` | Sentence transformer model | `all-MiniLM-L6-v2` |
-| `CHUNK_SIZE` | Document chunk size | `500` |
-| `CHUNK_OVERLAP` | Overlap between chunks | `50` |
 
 ## 🧩 Modules
 
